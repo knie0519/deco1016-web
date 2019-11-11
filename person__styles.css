@@ -115,6 +115,15 @@ button:hover {
   .menu {
     display: inherit;
   }
+  .card {
+    transform: translate(-150px, -80px);
+  }
+  .watermark {
+    display: none;
+  }
+  .bills {
+    transform: translate(40px, -70px);
+  }
 }
 
 /* Mobile Nav */

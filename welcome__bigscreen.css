@@ -49,9 +49,8 @@
 }
 /* five circles */
 .left__bar > div, a {
-  transform: translate(-10px, 0px);
   margin-top: 170px;
-  margin-left: 30px;
+  margin-left: 105px;
   border: #FD9326 6px solid;
   padding: 20px;
   border-radius: 150px;
@@ -59,38 +58,44 @@
 }
 /* show recent step */
 .left__bar a,.recent {
-  border: white 6px solid;
+  border: rgb(190, 253, 147) 6px solid;
 }
 
 
 /* right bar */
 
-/* title question */
-.right__bar .question {
-  color: white;
-  margin-top: 8%;
-  margin-left: 13%;
-  font-family: "Montserrat", sans-serif;
-  font-size: 35px;
+/* image */
+.logo {
+  display: block;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 200px;
 }
 
-/* options buttons*/
-.options {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
+/* welcome text */
+.text {
+  margin-left: 420px;
+  margin-top: 60px;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(253, 145, 38);
+  font-size: 55px;
 }
-.options .first {
-  transform: translate(180px, 100px);
-  justify-self: end;
-  width: 340px;
-  height: 120px;
+
+.person {
+  margin-top: 80px;
 }
-.options .second {
-  transform: translate(-180px, 290px);
-  justify-self: start;
-  width: 340px;
-  height: 120px;
+
+.button a {
+  background: #FD9326;
+  margin-left: 16%;
+  padding: 30px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-left: 20px;
+
 }
+
+/* button */
 button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -104,51 +109,11 @@ button {
   transition: all 0.3s ease 0s;
 }
 
-/* bottom buttons */
-.move {
-  transform: translate(0px, 400px);
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  align-items: center;
-}
-.move .forward {
-  width: 12px;
-}
-.move .backward {
-  width: 12px;
-}
-.move a {
-  background: #FD9326;
-  margin-left: 30%;
-  margin-right: 25%;
-  margin-top: 15%;
-  padding: 2px;
-}
-
-/* arrows */
-i {
-  background-color: #FD9326;
-  border: solid #44384A;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-.right {
-  zoom: 3;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-.left {
-  zoom: 3;
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-
 /* button effects */
-button:focus {
+button:hover {
   background-color: rgba(253, 147, 38, 0.5);
   /* color fade when mouse over by using transparency */
-  font-size: 50px;
+  font-size: 40px;
   text-shadow: 3px 2px #44384A;
   /* text style changes when mouse over */
 }

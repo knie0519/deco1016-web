@@ -49,8 +49,9 @@
 }
 /* five circles */
 .left__bar > div, a {
+  transform: translate(-10px, 0px);
   margin-top: 170px;
-  margin-left: 105px;
+  margin-left: 30px;
   border: #FD9326 6px solid;
   padding: 20px;
   border-radius: 150px;
@@ -61,35 +62,37 @@
   border: rgb(190, 253, 147) 6px solid;
 }
 
+
+/* right bar */
+
 /* image */
 .logo {
   display: block;
   width: 300px;
   margin-top: 100px;
-  margin-left: 200px;
+  margin-left: 23px;
 }
 
 /* welcome text */
 .text {
-  margin-left: 420px;
-  margin-top: 60px;
+  margin-left: 60px;
+  margin-top: 30px;
   font-family: "Montserrat", sans-serif;
   color: rgba(253, 145, 38);
   font-size: 55px;
 }
 
 .person {
-  margin-top: 80px;
+  margin-top: 70px;
+  width: 270px;
 }
 
 .button a {
   background: #FD9326;
-  margin-left: 16%;
+  margin-left: 5%;
   padding: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 120px;
   padding-left: 20px;
-  padding-left: 20px;
-
 }
 
 /* button */
